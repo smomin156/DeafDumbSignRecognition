@@ -1,0 +1,22 @@
+NumPy is a Python library used for working with arrays
+Pandas - reading excel file- is a Python library used for working with data sets. It has functions for analyzing, cleaning, exploring, and manipulating data. 
+cv2 capture video convert to graysvale for traintest
+Image - placeholder image
+imutils-not used - A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges
+
+Conv2D - Convolution 2d layer-CNNs are particularly useful for finding patterns in images to recognize objects, classes, and categories. 
+MaxPool2D - the class of PyTorch that is used in neural networks for pooling over specified signal inputs which internally contain various planes of input-its main function is to reduce the size of volume which makes the computation fast reduces memory and also prevents overfitting
+Relu - Activation layer 
+categorical_crossentropy: Used as a loss function for multi-class classification model where there are two or more output labels.
+What is SGD optimizer in Keras?
+SGD is the default optimizer for the python Keras library as of this writing. SGD differs from regular gradient descent in the way it calculates the gradient. Instead of using all the training data to calculate the gradient per epoch, it uses a randomly selected instance from the training data to estimate the gradient.
+Adam - Unlike maintaining a single learning rate through training in SGD, Adam optimizer updates the learning rate for each network weight individually.
+
+batch normalization allows us to train our models with a higher learning rate, which means our network can converge faster and while still avoiding internal covariate shift
+Dense is a layer type (fully connected layer).
+
+reducelronplateau -Models often benefit from reducing the learning rate by a factor of 2-10 once learning stagnates
+
+What is the use of ImageDataGenerator in Keras?
+Image result for imagedatagenerator keras
+Keras ImageDataGenerator is used for getting the input of the original data and further, it makes the transformation of this data on a random basis and gives the output resultant containing only the data that is newly transformed.
